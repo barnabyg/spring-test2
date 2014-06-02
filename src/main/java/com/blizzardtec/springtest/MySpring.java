@@ -5,7 +5,7 @@ package com.blizzardtec.springtest;
 
 /**
  * @author bob
- * 
+ *
  */
 public final class MySpring {
 
@@ -16,7 +16,7 @@ public final class MySpring {
 
     /**
      * Do some stuff with components.
-     * 
+     *
      * @return high or low
      */
     public String doStuff() {
@@ -25,7 +25,7 @@ public final class MySpring {
 
     /**
      * Set my component.
-     * 
+     *
      * @param myComponent
      *            val
      */
@@ -35,7 +35,7 @@ public final class MySpring {
 
     /**
      * return my component.
-     * 
+     *
      * @return result
      */
     public MyComponent getMyComponent() {

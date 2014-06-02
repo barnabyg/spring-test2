@@ -1,5 +1,5 @@
 /**
- * 
+ * class.
  */
 package com.blizzardtec.springtest;
 
@@ -16,12 +16,12 @@ public final class MyApp {
      * Private cons.
      */
     private MyApp() {
-        
+        // empty
     }
 
     /**
      * Main.
-     * 
+     *
      * @param args
      *            vals
      */

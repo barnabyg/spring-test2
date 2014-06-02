@@ -1,10 +1,11 @@
 /**
- * 
+ *
  */
 package com.blizzardtec.springtest;
 
-import org.junit.Test;
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 /**
  * @author bob
