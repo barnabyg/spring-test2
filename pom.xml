@@ -8,8 +8,15 @@
 	<url>http://maven.apache.org</url>
   <name>spring-test2</name>
 
+  <prerequisites>
+    <maven>3.0.1</maven>
+  </prerequisites>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <cobertura.version>2.6</cobertura.version>
+    <pmd.version>3.1</pmd.version>
+    <checkstyle.version>2.12.1</checkstyle.version>
 	</properties>
 
 	<build>
@@ -17,7 +24,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
-				<version>2.5</version>
+				<version>${pmd.version}</version>
 				<configuration>
 					<targetJdk>1.7</targetJdk>
 					<rulesets>
@@ -39,7 +46,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.6</version>
+				<version>${checkstyle.version}</version>
 				<configuration>
 					<failsOnError>true</failsOnError>
 					<violationSeverity>warning</violationSeverity>
@@ -84,7 +91,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
-				<version>2.5</version>
+				<version>${pmd.version}</version>
 				<configuration>
 					<targetJdk>1.7</targetJdk>
 					<rulesets>
@@ -95,7 +102,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
-				<version>2.6</version>
+				<version>${checkstyle.version}</version>
 				<configuration>
 					<configLocation>${basedir}\..\settings\barnaby-checkstyle-config.xml</configLocation>
 				</configuration>
