@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans
   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-  <bean id="myComponentHigh" class="com.barnabyg.MyComponentHigh"/>
+  <bean id="myComponentHigh" class="com.blizzardtec.springtest.MyComponentHigh"/>
 
-  <bean id="myComponentLow" class="com.barnabyg.MyComponentLow"/>
+  <bean id="myComponentLow" class="com.blizzardtec.springtest.MyComponentLow"/>
 
-  <bean id="mySpring" class="com.blizzardtec.MySpring">
+  <bean id="mySpring" class="com.blizzardtec.springtest.MySpring">
     <property name="myComponent">
       <ref local="myComponentHigh"/>
     </property>
